@@ -48,18 +48,17 @@ en otras palabras, el valor absoluto de la sumatoria de la distancia vertical y 
 Cabe recalcar que nuestro script de python utiliza un archivo de texto con la distribución del laberinto como input, y genera una imagen del laberinto solucionado, donde el mejor camino es resaltado de color verde, y el resto de caminos que recorre pero que no forman parte de la solución son resaltados de color rojo. 
 
 ### Estado Inicial
-![laberinto_A_star_inicial](https://user-images.githubusercontent.com/43977313/80866844-0280d200-8c5f-11ea-9355-036acb88c7ef.png)
+<img src="https://user-images.githubusercontent.com/43977313/80866844-0280d200-8c5f-11ea-9355-036acb88c7ef.png" alt="laberinto" width="500" height="500">
 
 ### Estado Final
-![laberinto](https://user-images.githubusercontent.com/43977313/80866888-3d830580-8c5f-11ea-8792-9b953da8ed2e.png)
+<img src="https://user-images.githubusercontent.com/43977313/80866888-3d830580-8c5f-11ea-8792-9b953da8ed2e.png" alt="laberinto" width="500" height="500">
 
 ## A*
 
 ### Estado Inicial
-![laberinto_A_star_inicial](https://user-images.githubusercontent.com/43977313/80866844-0280d200-8c5f-11ea-9355-036acb88c7ef.png)
+<img src="https://user-images.githubusercontent.com/43977313/80866844-0280d200-8c5f-11ea-9355-036acb88c7ef.png" alt="laberinto" width="500" height="500">
 
 ### Estado Final
-
-![laberinto_A_star](https://user-images.githubusercontent.com/43977313/80866916-5ee3f180-8c5f-11ea-9822-521bade1078b.png)
+<img src="https://user-images.githubusercontent.com/43977313/80866916-5ee3f180-8c5f-11ea-9822-521bade1078b.png" alt="laberinto" width="500" height="500">
 
 Como se puede observar, Bread-First Search recorre 214 estados o cuadrados en su desarollo para llegar a la solución, mientras que A* solo recorre 96 estados.
