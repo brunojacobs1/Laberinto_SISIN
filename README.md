@@ -4,6 +4,9 @@ Examen T1 del curso Sistemas Inteligentes.
 
 ## Integrantes
 
+* Arribasplata Chávarri, Luis Sebastián - N00048640
+* Cornejo Chunga, Daniel Badinho - N00070150
+* Esparza del Castillo, Jose Alberto - N00077952
 * Jacobs Schulz, Bruno - N00095845
 
 ### Enunciado
