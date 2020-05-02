@@ -26,7 +26,6 @@ class Laberinto():
 
     def __init__(self, filename):
 
-        # Leer el archivo de texto
         with open(filename) as f:
             contenido = f.read()
 
@@ -101,7 +100,6 @@ class Laberinto():
 
     def Resolver(self):
 
-        # Mantener numero de estados explorados
         self.numExplorados = 0
 
         # Inicializar el frontier al estado inicial
@@ -110,17 +108,14 @@ class Laberinto():
         frontier = Frontier()
         frontier.estados.append(inicio)
 
-        # Inicializar un set de estados explorados
         self.explorados = set()
 
-        # Repetir hasta encontrar la solucion
         while True:
 
             # Si no hay nada en el frontier, no hay camino
             if len(frontier.estados) < 0:
                 raise Exception("no hay solucion")
 
-            # Seleccionar el primer cuadrado de la frontier
             nodo = frontier.estados[0]
             pos = 0
 
@@ -130,8 +125,6 @@ class Laberinto():
                     nodo = nnodo
                     pos = i
 
-                    
-            # Quitar el cuadrado actual de la frontier
             frontier.estados.pop(pos)
             
             self.numExplorados += 1
@@ -151,7 +144,6 @@ class Laberinto():
                 self.estados = len(estados)
                 return
 
-            # Marcar cuadrado como explorado
             self.explorados.add(nodo.estado)
 
             # Agregar adyacentes al frontier
